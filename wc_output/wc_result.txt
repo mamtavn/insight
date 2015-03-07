@@ -1,0 +1,17 @@
+
+#processing file /home/mamtavn/INSIGHT/insight/wc_input/a.txt
+brave 1
+hello 1
+helloe 1
+new 1
+world 2
+
+#processing file /home/mamtavn/INSIGHT/insight/wc_input/b.txt
+bar 1
+foo 1
+
+#processing file /home/mamtavn/INSIGHT/insight/wc_input/c.txt
+again 1
+hello 5
+there 2
+whiterose 4
