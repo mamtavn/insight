@@ -39,7 +39,7 @@ if __name__=="__main__":
                 # overwrite the results file
                 mf = open(medianoutfile, "w")
                 for i in runningmedian:
-                    mf.write("{:.1f}".format(i)+ "\n")
+                    mf.write("{:.1f}".format(i) + "\n")
 
                 mf.close()
                 print("Running Median Count in - ", medianoutfile)                
