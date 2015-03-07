@@ -1,6 +1,9 @@
+from __future__ import division
+
 import os, os.path
 import sys
 import re
+
 
 #default files and directories
 DEFAULT_INPUT_DIR = "wc_input"
@@ -30,6 +33,7 @@ def getMedian(numArray):
         # sort the array for finding the median
         median = -1
         sortedArray = sorted(numArray)
+        print(sortedArray)
         size = len(sortedArray)      
 
         midsize = int(size/2); 
@@ -102,7 +106,7 @@ def getRunningMedian(dirName):
                                                         actualwordcount += 1
                                 wordlinecount.append(actualwordcount)
                                 median = getMedian(wordlinecount)
-                                print("----", actualwordcount)
+                                #print("----", actualwordcount, median)
                                 mediancount.append(median)
                         f.close()
                 return(mediancount)
