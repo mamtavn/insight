@@ -1,6 +1,6 @@
-# insight
+# insight (Mamatha Rao)
 
-Insight Data Engineering Fellows Program - Coding Challenge
+Insight Data Engineering Fellows Program - Coding Challenge 
 
 Contains 2 python scripts - word_count.py and running_median.py
 Both are tested against Python2 and Python3
