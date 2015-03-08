@@ -33,7 +33,7 @@ def getMedian(numArray):
         # sort the array for finding the median
         median = -1
         sortedArray = sorted(numArray)
-        print(sortedArray)
+        #print(sortedArray)
         size = len(sortedArray)      
 
         midsize = int(size/2); 
@@ -91,7 +91,7 @@ def getRunningMedian(dirName):
                 # get all the files that need to be parsed
                 filenames = sorted(getFiles(dirName))
                 for fname in filenames:
-                        print("----processing file ", fname)
+                        #print("----processing file ", fname)
                         f = open(fname, "r")
 
                         data = f.readlines()
